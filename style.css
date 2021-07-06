@@ -77,13 +77,13 @@ h1{
     padding-top: 5%;
 }
 .order-button{
-    color: white;
+    color:white;
     text-decoration: none;
     background-image: linear-gradient(to left,tomato, rgb(219, 125, 17));
     padding: 10px 20px;
-    border-radius: 20px ;
-    }
- #background-img{
+    border-radius: 20px;
+}
+#background-img{
     background-image:url(images/female/bg-img.png);
     background-repeat: no-repeat;
     margin-top: 5%;
@@ -91,29 +91,29 @@ h1{
     
 }
 .right{
-   
     width: 50%;
     margin-left: auto;
     padding: 100px 0px;
-    
-
 }
 
 .right h1{
     font-size: 30px;
 }
+.right p{
+    padding-bottom: 5%;
+    padding-right: 20%;
+}
 .contact-button{
     color: white;
     text-decoration: none;
     background-image: linear-gradient(to left,tomato, rgb(219, 125, 17));
-    padding: 10px 20px;
+    padding: 13px 32px;
+    margin-top: 5%;
     border-radius: 20px ;
 
 }
 #felx{
     display:flex;
-   
-
 }
 .my-recipie img{
     width: 100% ;
@@ -135,10 +135,13 @@ footer{
     color: white;
     
     text-align: center;
-    font-size: 30px ;
+    font-size: 20px ;
     background-color: black;
     padding: 20px;
     margin: 20px auto ;
 }
-
+footer p{
+    padding: 10px 40px;
+    font-size: 13px;
+}
 
