@@ -1,3 +1,47 @@
-h1{
-    color: orange;
+body{font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-ber{
+    width: 85%;
+    margin: auto;
+    height: 2px;
+    padding:35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    border-radius: 80px;
+    margin-top: 10px;
+    margin-left: -2px;
+    
+}
+.nav-ber ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.nav-ber ul li a{
+    text-decoration: none;
+    color: rgb(68, 128, 196);
+    text-transform: uppercase;
+}
+.nav-ber ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: rgb(68, 128, 196) ;
+    position:absolute;
+    left: 0px;
+    bottom: -10px;
+    transition: 0.6s;
+}
+.nav-ber ul li:hover::after{
+    width: 100%;
 }
