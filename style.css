@@ -2,6 +2,9 @@ body{font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
 }
+section{
+    margin-bottom: 100px;
+}
 .nav-ber{
     width: 85%;
     margin: auto;
@@ -29,14 +32,14 @@ body{font-family: 'Poppins', sans-serif;
 }
 .nav-ber ul li a{
     text-decoration: none;
-    color: rgb(68, 128, 196);
+    color: tomato;
     text-transform: uppercase;
 }
 .nav-ber ul li::after{
     content: '';
     height: 3px;
     width: 0%;
-    background-color: rgb(68, 128, 196) ;
+    background-color: tomato ;
     position:absolute;
     left: 0px;
     bottom: -10px;
@@ -45,3 +48,97 @@ body{font-family: 'Poppins', sans-serif;
 .nav-ber ul li:hover::after{
     width: 100%;
 }
+h1{
+    font-size: 50px;
+    color: gray;
+}
+.color{
+    color: gray;
+    padding-bottom: 5%;
+    
+}
+
+.tomato-color{
+    color: tomato;
+}
+.display-felx{
+    display: flex;
+}
+.padding-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.padding-width img{
+    width: 80%;
+
+}
+
+#margin{
+    padding-top: 5%;
+}
+.order-button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to left,tomato, rgb(219, 125, 17));
+    padding: 10px 20px;
+    border-radius: 20px ;
+    }
+ #background-img{
+    background-image:url(images/female/bg-img.png);
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    padding-top: 120px;
+    
+}
+.right{
+   
+    width: 50%;
+    margin-left: auto;
+    padding: 100px 0px;
+    
+
+}
+
+.right h1{
+    font-size: 30px;
+}
+.contact-button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to left,tomato, rgb(219, 125, 17));
+    padding: 10px 20px;
+    border-radius: 20px ;
+
+}
+#felx{
+    display:flex;
+   
+
+}
+.my-recipie img{
+    width: 100% ;
+    border-radius: 20px;
+}
+.my-recipie{
+    margin: 20px;
+    padding: 20px;
+    width: 33%;
+    box-shadow: 0 0 10px #0000004d;
+    border-radius:20px;
+}
+.title{
+    text-align: center;
+    width:500px;
+    margin: 20px auto;
+}
+footer{
+    color: white;
+    
+    text-align: center;
+    font-size: 30px ;
+    background-color: black;
+    padding: 20px;
+    margin: 20px auto ;
+}
+
+
